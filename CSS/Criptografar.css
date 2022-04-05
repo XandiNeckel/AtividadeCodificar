@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    background-image: url(/Imagens/cripto.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    justify-content: center;
+    margin-top: 7%;
+    
+    
+}
+
+
+
+
+
