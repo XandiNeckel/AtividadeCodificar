@@ -12,34 +12,42 @@
         href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Cookie&family=Press+Start+2P&family=Righteous&family=Send+Flowers&display=swap"
         rel="stylesheet">
 
-    <script src="/JS/Criptografar.js"></script>
+    <script src="/JS/Criptografar.js" defer></script>
     <link rel="stylesheet" href="/CSS/Criptografar.css">
     <title>* Criptografia *</title>
 </head>
 
 <body>
-    <header>
-    
-    
-        <form>
-            <div >
-                <h2>
-                    <input type="radio" id="Base 64" />
-                    Base 64
-                </h2>
 
-                <h2>
-                    <input type="radio"  id="Cifra de César" />
-                    Cifra de César
-                </h2>
-            </div>
-            
-                <textarea cols="70" name="comentar">Escreva aqui...</textarea>
-            </header>   
-    
+    <form>
+        <label for="Escolher"></label>
+
+        <select id="Escolher" name="Escolher">
+
+            <option value="Base64">Base 64</option>
+            <option value="César">Cifra de César</option>
+
+        </select>
+        <h2>Codificar</h2>
+        <textarea id="code" style="color: rgb(14, 3, 75);" name="comentar"></textarea>
+        <h2>Decodificar</h2>
+        <textarea id="decode" style="color: rgb(14, 3, 75);" name="comentar"></textarea>
+
+        <section>
+
+            <input type="radio" name="radio" id="radio-code" title='Codificar mensagem' />
+            Codificar
+
+            <input type="radio" name="radio" id="radio-decode" title='Decodificar mensagem' />
+            Decodificar
+        </section>
+
+        <input class="ajustarbtn" style="margin: auto;" type="number" id="passo" />
+        <input class="ajustarbtn" style="margin: auto;" id="btn" value="Codificar" type="submit" />
+
+        </div>
+
     </form>
-
-
 
 </body>
 
