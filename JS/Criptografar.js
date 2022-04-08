@@ -15,7 +15,7 @@ document.getElementById('btn').addEventListener('click', function () {
   }
 
 })
-  ///Base64
+  ///Base64///
 function verificaBase(){
   if (document.getElementById('radio-code').checked === true ){
     saida.value=CodeBase64(document.getElementById('code').value)
