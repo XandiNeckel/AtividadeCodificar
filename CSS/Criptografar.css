@@ -39,7 +39,7 @@ select{
 textarea, input, .ajustarbtn,h2{
     display: flex;
     margin: 2%;
-    border-radius: 30px;     
+    border-radius:15px;     
 }
 
 input{
@@ -56,3 +56,4 @@ section{
     align-items: center;    
     font-size: 20px;       
 }
+/* <!-- teste GIT--> */
