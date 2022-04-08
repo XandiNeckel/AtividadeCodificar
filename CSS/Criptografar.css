@@ -7,7 +7,7 @@ html,body,form{
 body {
     font-family: 'Press Start 2P';   
     display: flex;
-    background-image: url('../Imagens/cripto.gif');
+    background-image: url("../Imagens/cripto.gif");
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(8, 179, 150);
